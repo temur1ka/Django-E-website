@@ -1,0 +1,261 @@
+{% load static %}
+
+<head>
+  
+  <!-- Required meta tags -->
+  <style>
+    .ribon{
+      position: absolute;
+      left: 50%;
+      top: 0;
+      transform: translate(-50%, -50%);
+      width: 124px;
+      height: 124px;
+      background-color: #6610f2;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .ribon #devicon
+     {
+      font-size: 90px;
+      
+    }
+    
+  </style>
+
+  <!-- Bootstrap CSS -->
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous"
+  />
+
+
+
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+    crossorigin="anonymous"
+  />
+</head>
+<section class="section">
+  <div class="container">
+    <button class="button is-primary" id="submitBtn">Purchase!</button>
+  </div>
+</section>
+
+<div style="background-color: #6610f2">
+  <br />
+  <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+    <h1 class="display-4 fw-normal text-light" id="courses">კურსები</h1>
+    <p class="fs-5 text-light">
+      გთავაზობთ ჩვენი კურსების სიას,რომელშიც შედის: Vue Js, React Js, Django Python, PostgreSQL, JavaScript და Angular JS. შეიძინე
+      კურსები და დაეუფლე ყველაზე მოთხოვნად პროგრამულ ენებსა და ფრეიმვორკებს ჩვენს კომპანიაში!
+    </p>
+  </div>
+  <br />
+  <br />
+  <section class="row-4 container" id="courses">
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="ribon">
+            
+            <i class="devicon-vuejs-plain colored" id="devicon"></i>
+          
+          </div>
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">. . .</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+              $200$<small class="text-muted fw-light">/თვე</small>
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>ჯგუფში 15 ადამიანი<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+              <li>მენტორთან კონტაქტი<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+              <li>24/7 ყურადღება<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+              <li>პირველ თვეს ფულის დაბრუნება<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">
+              შეძენა
+            </button>
+          </div>
+        </div>
+        <br>
+        <br>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="ribon">
+            
+            <i class="devicon-react-original colored" id="devicon"></i>
+          
+          </div>
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">. . .</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+              $200$<small class="text-muted fw-light">/თვე</small>
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>ჯგუფში 15 ადამიანი<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+              <li>მენტორთან კონტაქტი<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+              <li>24/7 ყურადღება<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+              <li>პირველ თვეს ფულის დაბრუნება<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">
+              შეძენა
+            </button>
+          </div>
+        </div>
+        <br>
+        <br>
+      </div>
+      <br>
+     
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="ribon">
+            
+            <i class="devicon-django-plain colored" id="devicon" style="color: #224336
+            ;"></i>
+          
+          </div>
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">. . .</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+              $200$<small class="text-muted fw-light">/თვე</small>
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>ჯგუფში 15 ადამიანი<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+              <li>მენტორთან კონტაქტი<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+              <li>24/7 ყურადღება<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+              <li>პირველ თვეს ფულის დაბრუნება<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">
+              შეძენა
+            </button>
+          </div>
+        </div>
+        <br>
+        <br>
+      </div>
+      
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="ribon">
+            
+            <i class="devicon-postgresql-plain colored" id="devicon" style="color: rgb(196, 244, 255);"></i>
+          
+          </div>
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">. . .</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+              $200$<small class="text-muted fw-light">/თვე</small>
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>ჯგუფში 15 ადამიანი<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+              <li>მენტორთან კონტაქტი<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+              <li>24/7 ყურადღება<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+              <li>პირველ თვეს ფულის დაბრუნება<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">
+              შეძენა
+            </button>
+          </div>
+        </div>
+        <br>
+        <br>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="ribon">
+            
+            <i class="devicon-javascript-plain colored" id="devicon"></i>
+          
+          </div>
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">. . .</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+              $200$<small class="text-muted fw-light">/თვე</small>
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>ჯგუფში 15 ადამიანი<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+              <li>მენტორთან კონტაქტი<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+              <li>24/7 ყურადღება<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+              <li>პირველ თვეს ფულის დაბრუნება<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">
+              შეძენა
+            </button>
+          </div>
+        </div>
+        <br>
+        <br>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="ribon">
+            
+            <i class="devicon-angularjs-plain colored" id="devicon"></i>
+          
+          </div>
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">. . .</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+              $200$<small class="text-muted fw-light">/თვე</small>
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>ჯგუფში 15 ადამიანი<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+              <li>მენტორთან კონტაქტი<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+              <li>24/7 ყურადღება<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+              <li>პირველ თვეს ფულის დაბრუნება<i class="bi bi-check-circle" style="color: rgb(93,194,119);margin-left: 5px;"></i></li>
+              
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">
+              შეძენა
+            </button>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+    </div>
+    <br>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </section>
+</div>
